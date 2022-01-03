@@ -1,3 +1,7 @@
 .idea
 venv
 src
+.pytest_cache
+.vscode
+
+.env
