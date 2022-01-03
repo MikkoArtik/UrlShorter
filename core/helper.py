@@ -8,7 +8,7 @@ GOOD_SYMBOLS = [chr(x) for x in ALL_SYMBOL_IDS]
 UNIQUE_LINK_SIZE = 5
 
 
-def generate_unique_link() -> str:
+def generate_unique_url() -> str:
     return ''.join(random.choices(GOOD_SYMBOLS, k=UNIQUE_LINK_SIZE))
 
 
