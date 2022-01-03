@@ -117,6 +117,9 @@ class TestDbase:
 
             assert dbase_obj.get_short_url(origin_url) == short_url
 
+        origin_url = 'BAD-URL'
+        assert dbase_obj.get_short_url(origin_url) is None
+
     @patch('sqlite3.connect')
     @patch('dbase.dbase.is_dbase')
     @patch('os.path.exists')
