@@ -4,5 +4,6 @@ CREATE TABLE urls(
     short_url VARCHAR UNIQUE NOT NULL,
     registration_date TIMESTAMP NOT NULL,
     expiration_days INTEGER DEFAULT 1,
-    is_active BOOL DEFAULT TRUE
+    is_active BOOL DEFAULT TRUE,
+    UNIQUE(origin_url, short_url)
 );
