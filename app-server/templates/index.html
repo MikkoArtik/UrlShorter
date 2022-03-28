@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+    <script type="text/javascript" src="../static/core.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Monoton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="main-block">
+        <div class="url">
+          <label for="origin-link" class="link">Link</label>
+          <input type="url" placeholder="https://google.com" id="origin-link" />
+        </div>
+
+        <div class="number">
+          <span>alive</span>
+          <input
+            type="number"
+            placeholder="30"
+            id="days-count"
+            min="1"
+            max="30"
+          />
+          <span>days</span>
+        </div>
+
+        <div class="button">
+          <input type="button" id="get-link" value="shorten  URL" />
+        </div>
+
+        <div class="copy">
+          <input
+            type="text"
+            id="short-link"
+            placeholder="shorten URL"
+            readonly
+          />
+          <input type="button" id="copy-button" value="copy" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

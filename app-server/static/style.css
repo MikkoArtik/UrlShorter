@@ -1,0 +1,183 @@
+html {
+  /* width: 1445px;
+    height: 1024px; */
+  background: #dddddd;
+  font-family: "Roboto Mono", monospace;
+  font-family: "Monoton", cursive;
+  margin: 0;
+  padding: 0;
+}
+main {
+  margin-top: 150px;
+}
+.main-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.url {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+.number {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.button {
+  padding: 20px;
+}
+
+.copy {
+  padding: 30px;
+  position: relative;
+}
+
+/* link */
+
+input[type="url"] {
+  background: #fdff9f;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 30px;
+  width: 750px;
+  height: 35px;
+}
+
+input[type="url"]:hover {
+  border: 1px solid grey;
+}
+input {
+  outline: none;
+}
+.link {
+  padding-right: 10px;
+  font-size: 48px;
+  line-height: 75px;
+  color: #000000;
+}
+
+input[placeholder="https://google.com"]
+{
+  font-family: Roboto Mono;
+  font-size: 18px;
+  line-height: 53px;
+  text-align: left;
+  color: #000000;
+  font-style: italic;
+  padding-left: 15px;
+}
+
+/* alive days */
+span {
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 30px;
+  line-height: 47px;
+  color: #000000;
+}
+
+input[type="number"] {
+  background: #fdff9f;
+  border-radius: 10px;
+  width: 80px;
+  height: 38px;
+  border: none;
+}
+
+input[type="number"]:hover {
+  border: 1px solid grey;
+}
+
+input[placeholder="30"] {
+  font-family: Roboto Mono;
+  font-size: 28px;
+  line-height: 53px;
+  text-align: center;
+  color: black;
+}
+
+/* shorten url */
+.button input[type="button"] {
+  background: #fff500;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  border: none;
+  font-family: Monoton;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+  width: 398px;
+  height: 45px;
+}
+input::-webkit-inner-spin-button {
+  opacity: 0.5;
+  padding-right: 0px;
+}
+
+.button input[type="button"]:hover {
+  border: 1px solid grey;
+}
+
+/* copy shorten url */
+input[type="text"] {
+  width: 515px;
+  height: 40px;
+  background: #aeddff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+}
+
+.copy input[type="button"] {
+  position: absolute;
+  left: 450px;
+  width: 111px;
+  height: 42px;
+  background: #45adf9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  border: none;
+}
+
+.copy input[type="button"]:hover {
+  border: 1px solid grey;
+}
+.copy input[value="copy"] {
+  font-family: Monoton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+input[placeholder="shorten URL"] {
+  font-family: Roboto Mono;
+  font-size: 15px;
+  line-height: 53px;
+  text-align: left;
+  color: #000000;
+  font-style: italic;
+  padding-left: 15px;
+}
+
+.swal-overlay {
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.swal-modal {
+  background-color: rgb(226, 243, 253);
+  border: 3px solid rgb(91, 97, 99);
+}
+
+.swal-text {
+  font-family: Roboto Mono;
+  text-align: center;
+}
+
+.swal-button {
+  font-family: Roboto Mono;
+}

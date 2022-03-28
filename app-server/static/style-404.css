@@ -1,0 +1,21 @@
+* {
+    font-family: Roboto Mono;
+    background: #DDDDDD;
+}
+
+.error-number {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 250px;
+}
+
+.error-code {
+    font-size: 100px;
+    padding-left: 50px;
+}
+.error-description {
+    width: 590px;
+    font-size: 70px;
+    margin: 40px auto;    
+}
